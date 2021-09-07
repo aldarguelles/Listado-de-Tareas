@@ -1,0 +1,129 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Poppins", sans-serif;
+	outline: none;
+}
+
+body{
+	background: #73a6f2;
+}
+
+.contenedor{
+	display: block;
+	width: 40vw;
+	min-height: 85vh;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+	background: #e6e6e6;
+	text-align: center;
+	box-shadow: 0px 0px 4px 0px;
+}
+
+h1{
+	padding-top: 20px;
+}
+
+.formulario{
+	display: flex;
+	flex-flow: column wrap;
+	margin: auto;
+	width: 100%;
+	height: 30%;
+	align-items: center;
+	justify-content: center;
+}
+
+.nuevaTarea{
+	width: 80%;
+	margin: 20px;
+	margin-bottom: 5px;
+	font-size: 30px;
+	border: none;
+	background: #e6e6e6;
+	border-bottom: 2px solid;
+	font-family: "Poppins", sans-serif;
+}
+
+.tiempo{
+	width: 80%;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.spn-hora{
+	margin-left: 10px;
+}
+
+.longitud{
+	margin-top: -5px;
+	margin-left: auto;
+	color: #999999;
+	font-size: 13px;
+}
+
+.btn-agregar{
+	width: 30%;
+	height: 40px;
+	font-size: 22px;
+	border-radius: 3px;
+	border: none;
+	background: #73a6f2;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn-agregar:hover{
+	background: #48e;
+}
+
+.btn-agregar:active{
+	background: #156aea;
+}
+
+.verde{
+	color: #009900 !important;
+	cursor: default !important;
+
+}
+
+.azul{
+	color: #48e;
+	cursor: default !important;
+}
+
+.tiempo-listado{
+	display: flex;
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: -5px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.listado{
+	display: flex;
+	width: 80%;
+	margin: auto;
+	text-align: left;
+}
+
+.listado-verde{
+	border-bottom: 2px solid #009900;
+}
+
+.listado-azul{
+	border-bottom: 2px solid #48e;
+}
+.btn-icon{
+	margin-left: auto;
+}
+
+.material-icons{
+	color: #000;
+	cursor: pointer;
+}
